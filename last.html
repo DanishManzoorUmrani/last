@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+ 
+
+    <script>
+        const table = prompt(" enter your table"); for (let i = 1; i <= 10; i++) {
+            document.write(`
+            
+             <table >
+                  <tr>
+                        <td style="border: 1px solid;  padding: 10px; "> ${table} </td>
+                        <td style="border: 1px solid;  padding: 10px;"> x </td>
+                        <td style="border: 1px solid;  padding: 10px;" > ${i} </td> 
+                        <td style="border: 1px solid;  padding: 10px;"> = </td>
+                        <td style="border: 1px solid;  padding: 10px;">${table * i}</td> 
+                        <br>
+                    </tr>
+             </table>
+             `
+            )
+
+
+        }
+    </script>
+</body>
+
+</html>
